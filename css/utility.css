@@ -1,0 +1,65 @@
+/* PROPERTIES FOR SMALL-BOLD-TEXT CLASS STARTS */
+.small-bold-text{
+ font-size: 1rem;
+ font-weight: 700;
+
+}
+/* PROPERTIES FOR SMALL-BOLD-TEXT CLASS ENDS */
+
+/* PROPERTIES FOR CONTAINER CLASS STARTS */
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section );
+    overflow: hidden;
+}
+/* PROPERTIES FOR CONTAINER CLASS ENDS */
+
+/* PROPERTIES FOR FLEX CLASS STARTS */
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* PROPERTIES FOR FLEX CLASS ENDS */
+
+/* PROPERTIES FOR HOVER LINK CLASS STARTS */
+.hover-link{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+.hover-link:hover{
+    color: var(--secondary-text-color);
+}
+/* PROPERTIES FOR HOVER LINK CLASS ENDS */
+
+/* PROPERTIES FOR PRIMARY-BUTTON CLASS STARTS */
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius:6px ;
+    font-weight: 500;
+    color: white !important;
+    padding: 12px 12px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+    text-align: center;
+}
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+
+}
+
+/* PROPERTIES FOR PRIMARY-BUTTON CLASS ENDS */
+
+/* PROPERTIES FOR SECONDARY-BUTTON CLASS STARTS */
+.secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+    padding: 12px 12px;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    background-color: var(--accent-color);
+}
+/* PROPERTIES FOR SECONDARY-BUTTON CLASS ENDS */
